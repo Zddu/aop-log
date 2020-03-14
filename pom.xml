@@ -19,7 +19,7 @@
     </properties>
 
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/eu.bitwalker/UserAgentUtils -->
+        <!--获取浏览器信息 -->
         <dependency>
             <groupId>eu.bitwalker</groupId>
             <artifactId>UserAgentUtils</artifactId>
@@ -33,13 +33,13 @@
             <version>1.7.2</version>
         </dependency>
 
-        <!-- fastjson -->
+        <!-- 阿里巴巴json处理工具 -->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.47</version>
         </dependency>
-        <!-- hutool架包 -->
+        <!-- hutool工具包包含有很多工具类 文件上传 下载导入导出等等非常丰富 -->
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>

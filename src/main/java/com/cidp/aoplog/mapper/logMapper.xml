@@ -4,7 +4,5 @@
     <insert id="InsertLog" parameterType="com.cidp.aoplog.model.Log" >
     insert into log(username,description,method,logtype,requestip,address,browser,createdate)
       values (#{username},#{description},#{method},#{logType},#{requestIp},#{address},#{browser},#{createDate})
-
-
     </insert>
 </mapper>

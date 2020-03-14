@@ -29,6 +29,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .anyRequest().authenticated()
                 .and()
                 .formLogin() //表单登录配置
-                .loginProcessingUrl("/login"); //表单登陆提交数据的路径.csrf().disable();
+                .loginProcessingUrl("/login")//表单登陆提交数据的路径
+                .and()
+                .csrf().disable();
     }
 }
