@@ -13,7 +13,7 @@ public class TestController {
         return "aop log1";
     }
 
-    @Log("查询测试")
+    @Log("删除测试")
     @GetMapping("/test")
     public String hello2(){
         return "aop log2";
