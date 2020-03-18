@@ -8,7 +8,7 @@ import org.aspectj.lang.reflect.MethodSignature;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
-import utils.StringUtils;
+import com.cidp.aoplog.utils.StringUtils;
 
 import java.lang.reflect.Method;
 

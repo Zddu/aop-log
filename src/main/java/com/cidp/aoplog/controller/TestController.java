@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
-    @Log("查询测试")
+    @Log("更新操作")
     @GetMapping("/hello")
     public String hello(){
         return "aop log1";

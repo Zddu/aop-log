@@ -8,9 +8,9 @@ import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import utils.RequestUtils;
-import utils.SecurityUtils;
-import utils.StringUtils;
+import com.cidp.aoplog.utils.RequestUtils;
+import com.cidp.aoplog.utils.SecurityUtils;
+import com.cidp.aoplog.utils.StringUtils;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -29,6 +29,7 @@ public class LogAspect {
     public void logPointcut(){
         // 该方法无方法体,主要为了让同类中其他方法使用此切入点
     }
+
     @Around("logPointcut()")
     public Object logAround(ProceedingJoinPoint joinPoint) throws Throwable {
         Object result;
