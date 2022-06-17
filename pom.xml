@@ -37,7 +37,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.47</version>
+            <version>1.2.83</version>
         </dependency>
         <!-- hutool工具包包含有很多工具类 文件上传 下载导入导出等等非常丰富 -->
         <dependency>
